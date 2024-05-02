@@ -1,7 +1,6 @@
 ---
-title: "Welcome!"
+title: "Portfolio 1!"
 date: 2024-04-01T18:51:00-00:00
-permalink: /portfolio/
 categories:
   - portfolio
 tags:

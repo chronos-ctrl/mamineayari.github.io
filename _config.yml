@@ -105,6 +105,14 @@ defaults:
       comments: true
       share: true
       related: true
+  # _portfolio
+  - scope:
+      path: "_portfolio"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      permalink: "/portfolio/"
   # _pages
   - scope:
       path: "_pages"
