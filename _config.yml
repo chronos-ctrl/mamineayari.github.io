@@ -93,6 +93,11 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/amine-ayari-89754810/"
 
+collections:  
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   # _posts
   - scope:
@@ -107,12 +112,12 @@ defaults:
       related: true
   # _portfolio
   - scope:
-      path: "_portfolio"
-      type: posts
+      path: ""
+      type: portfolio
     values:
       layout: single
-      author_profile: true
-      permalink: "/portfolio/"
+      author_profile: false
+      share: true
   # _pages
   - scope:
       path: "_pages"
