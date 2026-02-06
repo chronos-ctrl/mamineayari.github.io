@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Amine AYARI's website
+title: Amine AYARI
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -59,8 +59,8 @@ plugins:
 
 author:
   name   : "Amine AYARI"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "AI Lead @ Forvia. Ex-Founder @Mobilesense. Ex-AI manager @ Dassault Systemes. Ex-CTO @SmartMeUp. Ex-AI Scientist @ INRIA. Ex AI Engineer @ THALES"
+  avatar : "/assets/images/bio-photo.webp"
+  bio    : "Principal-level individual contributor with 15+ years of experience designing and scaling production-grade AI systems across computer vision, 3D, embedded, and cloud platforms."
   links:
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
