@@ -104,6 +104,8 @@ The noise model can be represented as:
 
 ## Applying Noise to Synthetic Scenes
 
+![Artificial noisy depthmap](/assets/images/sensor-simulation-patent.webp)
+
 Once the noise model is learned, it can be applied to any new synthetic depth map:
 
 - New 3D scenes can be generated arbitrarily
