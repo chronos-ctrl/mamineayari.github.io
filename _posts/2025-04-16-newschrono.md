@@ -12,6 +12,8 @@ tags:
 
 *Published on {{ page.date | date: "%B %d, %Y" }}*
 
+![NewsChrono](/assets/images/newschrono-logo.webp)
+
 <a href="https://newschrono.com" target="_blank" rel="noopener noreferrer"><b>newschrono.com</b></a>
 is a French short-form news platform I designed and developed end-to-end — from ideation and product design to backend architecture and production deployment.
 
