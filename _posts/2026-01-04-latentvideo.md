@@ -16,6 +16,7 @@ header:
 
 <video
   controls
+  autoplay
   loop
   playsinline
   style="width:100%; max-width:900px; border-radius:8px; margin:24px 0;"
@@ -63,6 +64,7 @@ Everything — from model training decisions to API design — was implemented e
 <video
   controls
   muted
+  autoplay
   loop
   playsinline
   style="width:100%; max-width:900px; border-radius:8px; margin:24px 0;"
