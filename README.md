@@ -1,6 +1,6 @@
 # My blog
 
-## Install
+## Run locally
 <pre>
 <code>
 bundle clean --force
