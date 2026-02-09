@@ -21,7 +21,7 @@ header:
   playsinline
   style="width:100%; max-width:900px; border-radius:8px; margin:24px 0;"
 >
-  <source src="https://latentvideo.com/static/videos/demo.mp4" type="video/mp4">
+  <source src="/assets/videos/latentvideo-demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
