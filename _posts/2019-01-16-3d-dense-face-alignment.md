@@ -21,7 +21,7 @@ tags:
 
 While often associated with offline reconstruction or research prototypes, **lightweight 3DMM pipelines can now run on mobile devices**, enabling dense face representations in real time.
 
-This article presents a **PCA-based 3D Morphable Face Model** and explains how **dense face landmarks** are obtained by fitting the model to sparse 68-point landmarks using a mobile-friendly C++ implementation on Android.
+This article presents a **PCA-based 3D Morphable Face Model** and explains how I perform **dense face landmarks** alignment by fitting the model to sparse 68-point landmarks using a mobile-friendly C++ implementation on Android.
 
 ---
 
@@ -42,16 +42,16 @@ At its core, this is a **Point Distribution Model (PDM)** learned using **Princi
 
 The face geometry is decomposed into three components:
 
-\[
+$$
 \mathbf{V} = \mathbf{\bar{V}} + \mathbf{B_s}\alpha + \mathbf{B_e}\beta
-\]
+$$
 
 Where:
-- \(\mathbf{\bar{V}}\) is the mean face
-- \(\mathbf{B_s}\) are **shape blendshapes**
-- \(\alpha\) are shape coefficients
-- \(\mathbf{B_e}\) are **expression blendshapes**
-- \(\beta\) are expression coefficients
+- $\(\mathbf{\bar{V}}\)$ is the mean face
+- $\(\mathbf{B_s}\)$ are **shape blendshapes**
+- $\(\alpha\)$ are shape coefficients
+- $\(\mathbf{B_e}\)$ are **expression blendshapes**
+- $\(\beta\)$ are expression coefficients
 
 ### Model Characteristics
 
@@ -98,8 +98,6 @@ On Android, this allows:
 ---
 
 ## 5. From Sparse to Dense: Face Landmark Fitting
-
-![3D Face Morphable Model Fitting](/assets/images/3dmm-fitting.webp)
 
 Most mobile face detectors output **sparse landmarks**, typically **68 points**.
 
