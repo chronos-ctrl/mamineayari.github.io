@@ -8,8 +8,6 @@ tags:
   - deep-learning
   - startup
   - gcp
-header:
-  teaser: /assets/images/driver-height-teaser.jpg
 ---
 
 *Published on {{ page.date | date: "%B %d, %Y" }}*
@@ -33,7 +31,7 @@ LatentVideo is a **pilot project designed to cover the full lifecycle of a produ
 
 ## Product Vision
 
-The goal of LatentVideo is to make **high-quality video background subtraction** accessible, fast, and reliable — without requiring users to deal with complex tooling or infrastructure.
+The goal of LatentVideo is to make **high-quality video background replacement** accessible, fast, and reliable — without requiring users to deal with complex tooling or infrastructure.
 
 From day one, the product was designed with:
 - a clear user problem,
