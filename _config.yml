@@ -32,7 +32,7 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+locale: en
 include:
   - _pages
 
@@ -74,9 +74,6 @@ author:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/amine-ayari-89754810/"
-    - label: "Discuss your AI project"
-      icon: "fas fa-fw fa-calendar"
-      url: "javascript:Calendly.initPopupWidget({url:'https://calendly.com/medamine-ayari/1h-meeting-clone'});"
 footer:
   links:
     #- label: "Twitter"
