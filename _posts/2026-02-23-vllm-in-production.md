@@ -14,7 +14,7 @@ tags:
 
 *Published on {{ page.date | date: "%B %d, %Y" }}*
 
-As someone building **production-grade AI systems end-to-end** (from research at INRIA to product ownership at Dassault Systèmes and Forvia, and now deploying SaaS platforms such as LatentVideo), inference performance quickly becomes the main bottleneck when scaling LLM-based applications.
+As someone building **production-grade AI systems end-to-end**, inference performance quickly becomes the main bottleneck when scaling LLM-based applications.
 
 In real-world deployments, the challenge is not only *accuracy*, but also:
 
