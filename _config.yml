@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Amine AYARI"
   avatar : "/assets/images/bio-photo.webp"
-  bio    : "Principal-level individual contributor with 15+ years of experience designing and scaling production-grade AI systems across computer vision, 3D, embedded, and cloud platforms."
+  bio    : "Principal-level individual contributor with 15+ years of experience designing and scaling production-grade AI systems across NLP, computer vision, 3D, embedded, and cloud platforms."
   links:
     #- label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
