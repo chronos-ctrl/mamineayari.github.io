@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Getting Started
-permalink: /ideas/privacy/
+permalink: /ideas/clipper/privacy/
 ---
 # Privacy Policy
 Last updated: June 2026

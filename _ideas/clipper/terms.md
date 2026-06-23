@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Getting Started
-permalink: /ideas/terms/
+permalink: /ideas/clipper/terms/
 ---
 # Terms of Service
 Last updated: June 2026
