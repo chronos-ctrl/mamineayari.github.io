@@ -92,7 +92,9 @@ footer:
 collections:  
   portfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:path/  
+  ideas:
+    output: true
 
 defaults:
   # _posts
